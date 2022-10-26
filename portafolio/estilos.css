@@ -37,21 +37,13 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 	background-image: url(./img/pngwing.com\ \(77\).png);
 	background-size: 25%;
-
 	background-repeat: repeat-y;
 	background-clip: initial;
 	margin: 0 auto;
-
-
 }
-
 img {
 	width: 100%;
 }
-
-
-
-
 .circulos {
 	position: fixed;
 	width: 100%;
@@ -59,10 +51,8 @@ img {
 	top: 0;
 	left: 0;
 	filter: blur(50px);
-	animation: circulo-1 60s linear infinite both;
+	animation: circulo-1 20s linear infinite both;
 }
-
-
 .circulo-1 {
 	position: absolute;
 	width: 50%;
@@ -70,21 +60,17 @@ img {
 	top: 0%;
 	left: 0%;
 	filter: blur(70px);
-	animation: circulo-1 60s linear infinite both;
-
+	animation: circulo-1 20s linear infinite both;
 }
-
 .circulo-2 {
-
 	position: absolute;
 	width: 50%;
 	height: 50%;
 	top: 0%;
 	right: 0%;
 	filter: blur(70px);
-	animation: circulo-1 60s linear infinite both;
+	animation: circulo-1 20s linear infinite both;
 }
-
 .circulo-3 {
 	position: absolute;
 	width: 50%;
@@ -92,20 +78,17 @@ img {
 	bottom: 0%;
 	left: 0%;
 	filter: blur(70px);
-	animation: circulo-1 60s linear infinite both;
+	animation: circulo-1 20s linear infinite both;
 }
-
 .circulo-4 {
 	position: absolute;
 	width: 50%;
 	height: 50%;
 	bottom: 0%;
 	right: 0%;
-	filter: blur(50px);
-	animation: circulo-1 60s linear infinite both;
+	filter: blur(70px);
+	animation: circulo-1 20s linear infinite both;
 }
-
-
 .circulo-1 .path {
 	fill: rgb(18, 201, 146);
 }
@@ -119,7 +102,7 @@ img {
 }
 
 .circulo-4 .path {
-	fill: rgb(7, 52, 124);
+	fill: rgb(15, 83, 194);
 }
 
 a {
@@ -135,7 +118,6 @@ a {
 	position: relative;
 	z-index: 2;
 }
-
 .hero h1 {
 	font-size: 80px;
 }
@@ -155,6 +137,34 @@ a {
 .social-img {
 	width: 50px;
 	padding: 10px;
+}
+.descarga-pdf {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+.descarga-pdf-span {
+	color: #113CFC;
+	font-size: 14px;
+	padding: 5px;
+
+}
+.pdf {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.pdf-img {
+	width: 5%;
+	cursor: pointer;
+
+}
+.pdf-img:hover {
+	transform: scale(1.15);
+
 }
 
 
@@ -865,6 +875,30 @@ nav .indicador {
 		width: 50px;
 		padding: 10px;
 	}
+	.descarga-pdf {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+
+	}
+	.descarga-pdf-span {
+		color: #113CFC;
+		font-size: 14px;
+		padding: 5px;
+
+	}
+	.pdf {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+	.pdf-img {
+		width: 15%;
+		cursor: pointer;
+
+	}
 
 	nav {
 
@@ -1268,11 +1302,11 @@ nav .indicador {
 }
 @keyframes circulo-1 {
 	form {
-		transform: rotate(0deg) scale(3);
+		transform: rotate(0deg) scale(2);
 	}
 
 	to {
-		transform: rotate(360deg) scale(3);
+		transform: rotate(360deg) scale(2);
 
 	}
 
@@ -1289,6 +1323,24 @@ nav .indicador {
 		transform: translateY(12%);
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
