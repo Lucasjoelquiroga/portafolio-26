@@ -1,17 +1,17 @@
 :root {
 
-	--image-1: url("https://www.paginaswebs.com/wp-content/uploads/2016/05/Html-5-1920x1200.jpg");
-	--image-2: url("https://th.bing.com/th/id/R.82a289305b5571cbb2c7af8d9e5773e1?rik=MMaixTSZuiiz%2fw&riu=http%3a%2f%2fcds.edu.sv%2fnovablog%2fwp-content%2fuploads%2f2018%2f06%2fcss3.jpg&ehk=zBc9wtATNRpnzR1qNWEl8%2bTfWJQiekdH%2fz8PgQHSrBA%3d&risl=&pid=ImgRaw&r=0");
-	--image-3: url("https://tutorialesenpdf.com/wp-content/uploads/2017/01/Javascript.jpg");
-	--image-4: url("https://th.bing.com/th/id/OIP.BEMfY_lQsX65vpzveHVszAHaEK?pid=ImgDet&rs=1");
-	--image-5: url("https://th.bing.com/th/id/OIP.K71AV9unDaJU27SqH53Z4gHaEq?pid=ImgDet&rs=1");
-	--image-6: url("https://th.bing.com/th/id/R.cdb461c7c087c71b732a5f431d343203?rik=MDqwEFHPK1piAg&pid=ImgRaw&r=0&sres=1&sresct=1");
-	--image-7: url("https://th.bing.com/th/id/OIP.i448W2nJNgjrJHXZ4C_p5wHaDm?pid=ImgDet&rs=1");
-	--image-8: url("https://th.bing.com/th/id/R.935189424c63a6a660ae10ffb97cc17e?rik=92zglQ9vS3S%2bhA&riu=http%3a%2f%2fwww.guhit.pro%2fwp-content%2fuploads%2f2017%2f01%2fGithub_logo.png&ehk=CYNp%2bx%2fh05Aj0RQSXWnzWVuxzdJfKm65GS2WAkifCCY%3d&risl=&pid=ImgRaw&r=0");
-	--image-9: url("https://c1.staticflickr.com/5/4295/35295372263_50861a71fb_o.jpg");
-	--image-10: url("https://th.bing.com/th/id/R.56be615bbca4502de5d55d721dae917f?rik=CXaqM4yjKfMH6Q&pid=ImgRaw&r=0");
-	--image-11: url("https://th.bing.com/th/id/R.40bb8275fae7ae9e653b6493bd27b208?rik=l11659q9DOefLQ&pid=ImgRaw&r=0");
-	--image-12: url("https://freetutorials.download/wp-content/uploads/2018/07/Practical-Front-end-Web-Development-Learn-With-Projects.jpg");
+	--image-1: url(./img/img-1Html-5-1920x1200.jpg);
+	--image-2: url(./img/img2.jpeg);
+	--image-3: url(./img/img3.jpg);
+	--image-4: url(./img/img4.png);
+	--image-5: url(./img/img5.jpeg);
+	--image-6: url(./img/img6.png);
+	--image-7: url(./img/img7.jpg);
+	--image-8: url(./img/img8.png);
+	--image-9: url(./img/img9.png);
+	--image-10: url(./img/img10.png);
+	--image-11: url(./img/img11.png);
+	--image-12: url(./img/img12.jpg);
 
 }
 
