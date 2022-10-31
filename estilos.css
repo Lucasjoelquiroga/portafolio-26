@@ -138,6 +138,10 @@ a {
 	width: 50px;
 	padding: 10px;
 }
+.social-img:hover {
+	transform: scale(1.15);
+		
+}
 .descarga-pdf {
 	display: flex;
 	flex-direction: column;
@@ -606,9 +610,16 @@ nav .indicador {
 .proyectos-social .proyecto-img {
 	width: 10%;
 }
+.proyectos-social .proyecto-img:hover {
+	transform: scale(1.15);
+}
 
 .proyectos-social .proyecto-img2 {
 	width: 30%;
+
+}
+.proyectos-social .proyecto-img2:hover {
+	transform: scale(1.15);
 
 }
 
@@ -633,22 +644,35 @@ nav .indicador {
 	width: 40%;
 	padding: 5px;
 }
+.contacto-container .social-img1:hover {
+	transform: scale(1.15);
+}
 
 .contacto-container .social-img2 {
 	width: 40%;
 	padding: 5px;
-
 }
+.contacto-container .social-img2:hover {
+	transform: scale(1.15);
+}
+
 
 .contacto-container .social-img3 {
 	cursor: pointer;
 	width: 40%;
 	padding: 5px;
 }
+.contacto-container .social-img3:hover {
+	transform: scale(1.15);
+}
 
 .contacto-container .social-img4 {
 	width: 40%;
 	padding: 5px;
+
+}
+.contacto-container .social-img4:hover {
+	transform: scale(1.15);
 
 }
 
@@ -875,6 +899,7 @@ nav .indicador {
 		width: 50px;
 		padding: 10px;
 	}
+	
 	.descarga-pdf {
 		display: flex;
 		flex-direction: column;
@@ -901,15 +926,16 @@ nav .indicador {
 	}
 
 	nav {
-
-		max-width: 550px;
+        width: 100%;
+		max-width: 600px;
 		background-color: #fff;
 		height: 80px;
 		box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 		display: flex;
 		position: sticky;
-		top: 0;
+		top: 0px;
 		overflow: hidden;
+		z-index: 3;
 
 	}
 
@@ -943,7 +969,7 @@ nav .indicador {
 
 	.seccion {
 		min-height: 75vh;
-		max-width: 400px;
+		max-width: 450px;
 		width: 90%;
 		margin: 0 auto;
 		padding-top: 30px;
@@ -1298,7 +1324,13 @@ nav .indicador {
 	background-color: #0d6efd;
 	color: white;
 	outline: none;
+	aspect-ratio: 1;
+	margin-bottom: 10px;
+	font-size: 12px;
 
+}
+.btn-form:hover {
+	transform: scale(1.15);
 }
 @keyframes circulo-1 {
 	form {
