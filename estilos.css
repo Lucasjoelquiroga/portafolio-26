@@ -1025,6 +1025,7 @@ nav .indicador {
 		padding: 0 0 50px 50px;
 		margin: 0 auto;
 		margin-bottom: 50px;
+		margin-top: 40px;
 	}
 
 	.cube-container2 {
@@ -1034,7 +1035,7 @@ nav .indicador {
 		perspective: 260px;
 		padding: 0 0 50px 50px;
 		margin: 0 auto;
-		margin-bottom: 50px;
+		margin-bottom: 40px;
 	}
 
 	.cube {
