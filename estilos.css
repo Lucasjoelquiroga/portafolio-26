@@ -1012,9 +1012,10 @@ nav .indicador {
 	flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		padding-bottom: 25px;
+		padding-bottom: 55px;
 		margin: 0 auto;
 		padding-left: 0;
+		
 	}
 
 	.cube-container {
